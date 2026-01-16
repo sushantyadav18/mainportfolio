@@ -1,9 +1,14 @@
 //import React from 'react'
 import { Typewriter } from "react-simple-typewriter"
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+
 const Home = () => {
   return (
     <>
-   <div className="bg-gray-300 w-full h-screen flex items-center">
+   <div className="bg-pink-200 w-full h-screen flex items-center">
   <div className="max-w-7xl mx-auto px-6">
     
     <div className="flex flex-col md:flex-row items-center gap-10">
@@ -42,7 +47,7 @@ const Home = () => {
         <img
           src="1profile.jpg"
           alt="profile"
-          className="w-80 h-80 ml-4 md:w-64 md:h-64 object-cover rounded-full shadow-lg"
+          className="w-70 h-70 m-auto md:w-70 md:h-70 object-cover rounded-full shadow-lg"
 
           
         />
@@ -57,10 +62,67 @@ const Home = () => {
                             
         </div>
       </div>
+           
 
+           
     </div>
+    <div className="mt-4 flex gap-8 justify-center md:justify-start">
+  
+  {/* Facebook */}
+  <a
+    href="https://facebook.com"
+    target="_blank"
+    className="h-12 w-12 flex items-center justify-center 
+               rounded-full bg-blue-600 text-white text-xl
+               shadow-lg hover:bg-white
+               hover:scale-110 transition-all duration-300"
+  >
+    <FaFacebook />
+  </a>
+
+  {/* Instagram */}
+  <a
+    href="https://instagram.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-12 w-12 flex items-center justify-center 
+               rounded-full bg-pink-400
+               text-white text-xl shadow-lg
+               hover:bg-white
+               hover:scale-110 transition-all duration-300"
+  >
+    <FaInstagram />
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://linkedin.com"
+    target="_blank"
+    className="h-12 w-12 flex items-center justify-center 
+               rounded-full bg-blue-700 text-white text-xl
+               shadow-lg hover:bg-white
+               hover:scale-110 transition-all duration-300"
+  >
+    <FaLinkedin />
+  </a>
+
+  {/* GitHub */}
+  <a
+    href="https://github.com"
+    target="_blank"
+    className="h-12 w-12 flex items-center justify-center 
+               rounded-full bg-gray-900 text-white text-xl
+               shadow-lg hover:bg-white
+               hover:scale-110 transition-all duration-300"
+  >
+    <FaGithub />
+  </a>
+</div>
   </div>
 </div>
+
+
+
 
         
     </>

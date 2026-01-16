@@ -22,8 +22,9 @@ const Navbar = () => {
               MyPortfolio
             </span>
           </div>
-
+             
           {/* Desktop Menu */}
+           
           <ul className="hidden lg:flex space-x-6 text-white font-medium">
             <li><Link to="/" className="hover:text-yellow-400">Home</Link></li>
             <li><Link to="/projects" className="hover:text-yellow-400">Projects</Link></li>
