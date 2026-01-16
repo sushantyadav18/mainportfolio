@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900 w-screen h-1/8  p-6">
+    <nav className="fixed top-0 z-50 bg-gray-900 w-screen h-1/8  p-6">
       <div className="max-w-7xl shadow-md mx-auto px-6">
         <div className="flex items-center justify-between">
 
@@ -22,7 +22,7 @@ const Navbar = () => {
               MyPortfolio
             </span>
           </div>
-             
+
           {/* Desktop Menu */}
            
           <ul className="hidden lg:flex space-x-6 text-white font-medium">

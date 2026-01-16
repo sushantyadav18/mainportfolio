@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 const Home = () => {
   return (
     <>
-   <div className="bg-pink-200 w-full h-screen flex items-center">
+   <div className="  bg-pink-200 w-full h-screen flex items-center">
   <div className="max-w-7xl mx-auto px-6">
     
     <div className="flex flex-col md:flex-row items-center gap-10">
