@@ -47,13 +47,13 @@ const Home = () => {
         <img
           src="1profile.jpg"
           alt="profile"
-          className="w-70 h-70 m-auto md:w-70 md:h-70 object-cover rounded-full shadow-lg"
+          className="w-70 h-70 m-auto md:w-80 md:h-80 object-cover rounded-full shadow-lg"
 
           
         />
 
         {/* Decorative Ring */}
-        <div className="absolute inset-0 m-auto w-[280px] h-[280px] 
+        <div className="absolute inset-0 m-auto md:w-80 md:h-80  lg:80 lg:80
                         rounded-full border-2 border-dashed 
                         border-blue-500 opacity-100
                         animate-[spin_12s_linear_infinite]

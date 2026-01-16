@@ -1,6 +1,7 @@
-import React from "react";
+//import React from "react";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -34,7 +35,7 @@ const Project = () => {
   return (
     <section className="bg-gray-300  py-20">
       <div className="mx-auto  px-6 ">
-        <h1 className=" text-4xl font-bold text-center pt-20  text-gray-800">
+        <h1 className=" text-4xl font-bold text-center pt-10  text-gray-800">
           My Projects
         </h1>
 
@@ -42,9 +43,13 @@ const Project = () => {
           Some of the work I have built while learning
         </p>
 
-        <div  className="grid gap-8 mt-12  sm:grid-cols-2 lg:grid-cols-3">
+        <div 
+          className="grid gap-8 mt-5  sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <div className="bg-blue-300 m-5 rounded-xl p-3">
+            <motion.div 
+            whileHover={{scale:1.01}}
+             transition={{ type: "spring", stiffness: 300 }}
+             className="bg-blue-300 m-5 rounded-xl p-3 hover:bg-gray-400">
               <h3 className="text-center text-2xl font-bold">
                 {project.title}
               </h3>
@@ -59,12 +64,12 @@ const Project = () => {
                 to="https://github.com"
                 className="h-12 w-12 flex items-center justify-center 
                rounded-full bg-gray-900 text-white text-xl
-               shadow-lg hover:bg-white
+               shadow-lg hover:bg-gray-400
                hover:scale-110 transition-all duration-300"
               >
                 <FaGithub />
               </Link>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
