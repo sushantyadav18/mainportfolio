@@ -33,7 +33,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <section className="bg-gray-300  py-20">
+    <section className="bg-gray-200  py-20">
       <div className="mx-auto  px-6 ">
         <h1 className=" text-4xl font-bold text-center pt-10  text-gray-800">
           My Projects

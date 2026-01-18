@@ -70,7 +70,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section className="bg-gray-50 py-25">
+    <section className="bg-gray-200 py-25">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Title */}
@@ -129,6 +129,46 @@ const Skills = () => {
             </div>
           ))}
 
+ <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+            Skills Summary
+          </h3>
+
+          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4 text-gray-700">
+            <div>
+              <h4 className="font-semibold mb-2">Programming Languages</h4>
+              <ul className="list-disc ">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-2">Frameworks & Libraries</h4>
+              <ul className="list-disc l">
+                <li>React.js</li>
+                <li>Tailwind CSS</li>
+                <li>Node.js (Basic)</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-2">Databases</h4>
+              <ul className="list-disc">
+                <li>MongoDB</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-2">Tools & Design</h4>
+              <ul className="list-disc ">
+                <li>Git & GitHub</li>
+                <li>Figma</li>
+                <li>VS Code</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
