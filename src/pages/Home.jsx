@@ -4,6 +4,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
+//import Project from "./Project";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -33,9 +35,9 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+          <Link to="/projects" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
             View Projects
-          </button>
+          </Link>
           <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition">
             Contact Me
           </button>

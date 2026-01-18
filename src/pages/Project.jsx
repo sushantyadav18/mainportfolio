@@ -28,28 +28,35 @@ const projects = [
       "The Pet Adoption System is an online platform that helps users find and adopt pets easily. It allows shelters to list pets with details and images, while users can browse, search, and submit adoption requests. The system simplifies the adoption process and promotes responsible pet adoption.",
     tech: ["XML,JAVA AND "],
     github: "https://github.com/SushantYadav18/pet-adoption",
-  }
+  },
 ];
 
 const Project = () => {
   return (
     <section className="bg-gray-200  py-20">
       <div className="mx-auto  px-6 ">
-        <h1 className=" text-4xl font-bold text-center pt-10  text-gray-800">
+        <motion.h1
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2 }}
+          className=" text-4xl font-bold text-center pt-10  text-gray-800"
+        >
           My Projects
-        </h1>
+        </motion.h1>
 
         <p className="text-center text-gray-600 mt-2">
           Some of the work I have built while learning
         </p>
 
-        <div 
-          className="grid gap-8 mt-5  sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 mt-5  sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <motion.div 
-            whileHover={{scale:1.01}}
-             transition={{ type: "spring", stiffness: 300 }}
-             className="bg-blue-300 m-5 rounded-xl p-3 hover:bg-gray-400">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+              whileHover={{ scale: 1.01 }}
+              className="bg-blue-300 m-5 rounded-xl p-3 hover:bg-gray-400"
+            >
               <h3 className="text-center text-2xl font-bold">
                 {project.title}
               </h3>

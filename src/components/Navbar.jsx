@@ -31,6 +31,7 @@ const Navbar = () => {
             <li><Link to="/gallery" className="hover:text-yellow-400">Gallery</Link></li>
             <li><Link to="/skills" className="hover:text-yellow-400">Skills</Link></li>
             <li><Link to="/education" className="hover:text-yellow-400">Education</Link></li>
+            <li><Link to="/aboutUs" className="hover:text-yellow-400">About Us</Link></li>
           </ul>
 
           {/* Mobile Toggle */}
@@ -94,6 +95,16 @@ const Navbar = () => {
                 className="block w-full py-2 text-white hover:bg-gray-700"
               >
                 Education
+              </Link>
+            </li>
+
+            <li className="w-full text-center">
+              <Link
+                to="/aboutUs"
+                onClick={() => setIsOpen(false)}
+                className="block w-full py-2 text-white hover:bg-gray-700"
+              >
+                About Us
               </Link>
             </li>
           </ul>
