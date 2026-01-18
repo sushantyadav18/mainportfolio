@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
@@ -39,7 +39,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="h-10 w-10 flex items-center justify-center 
-                         rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
+                         rounded-full 
                          text-white hover:bg-white hover:text-pink-600
                          hover:scale-110 transition-all duration-300"
             >

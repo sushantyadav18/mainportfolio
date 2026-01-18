@@ -7,6 +7,7 @@ import Skills from '../pages/Skills'
 import { Routes, Route} from 'react-router-dom'
 import  Layouts from '../mainLayouts/Layouts'
 import AboutUs from '../pages/AboutUs'
+import ContactUs from '../pages/ContactUs'
 
 const CustomRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const CustomRoutes = () => {
         <Route path="/projects" element={<Project/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/aboutUs" element={<AboutUs/>}/>
+        <Route path="/contactUs" element={<ContactUs/>}/>
     </Route>
     </Routes>
     </>
