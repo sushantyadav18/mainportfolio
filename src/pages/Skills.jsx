@@ -88,7 +88,7 @@ const Skills = () => {
         </p>
 
         {/* Categories */}
-        <div className="mt-16 space-y-16">
+        <div className="mt-16 border-2-red space-y-16">
 
           {skillCategories.map((category, index) => (
             <div key={index}>
