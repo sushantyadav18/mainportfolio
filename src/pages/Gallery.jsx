@@ -9,26 +9,26 @@ const images = [
   },
   {
    
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNM1S5R22Jc71caHqsfv_MIgUSURpr_omDlQ&s",
+    src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8fHww",
     title: "Project UI",
   },
   {
     
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKIslBnOCZQlIfgbth5zgnwvv_c5TOz59SQ&s",
+    src: "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=",
     title: "React Components",
   },
   {
    
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKIslBnOCZQlIfgbth5zgnwvv_c5TOz59SQ&s",
-    title: "Dashboard Layout",
+    src: "https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Coding",
   },
   {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKIslBnOCZQlIfgbth5zgnwvv_c5TOz59SQ&s",
-    title: "Mobile Responsive",
+    src: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFieXxlbnwwfHwwfHx8MA%3D%3D",
+    title: "Cute Baby",
   },
   {
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbKIslBnOCZQlIfgbth5zgnwvv_c5TOz59SQ&s",
-    title: "Web Development",
+    src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEhhcHB5JTIwbGlmZXxlbnwwfHwwfHx8MA%3D%3D",
+    title: "Baby Smile",
   },
 ];
 const Gallery = () => {

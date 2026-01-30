@@ -47,7 +47,7 @@ const Education = () => {
                whileHover={{ scale: 1.05 }}
                transition={{duration:0.6}}
               key={index}
-              className="relative mt-9 bg-blue-100 rounded-3xl shadow-lg p-6 hover:bg-gray-300 "
+              className="relative mt-9 bg-blue-100 rounded-3xl shadow-lg p-6 hover:bg-green-300 "
             >
               <span className="">
                 <FaGraduationCap />

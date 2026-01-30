@@ -103,16 +103,16 @@ const Skills = () => {
                 initial="hidden"
                 whileInView="visible"
                 
-                className="grid  grid-cols-2 sm:grid-cols-3 md:grid-cols-5"
+                className="grid  grid-cols-2  sm:grid-cols-3 md:grid-cols-5"
               >
                 {category.skills.map((skill, i) => (
                   <motion.div
                     key={i}
                     variants={item}
-                    whileHover={{ scale: 1.15, rotate: 3 }}
+                    whileHover={{ scale: 1.15, rotate: 2 }}
                     className="relative flex flex-col items-center justify-center
-                               h-32 w-32 mx-auto rounded-full 
-                               bg-white hover:bg-gray-300 shadow-lg cursor-pointer"
+                               h-32 w-32 rounded-xl
+                               bg-white border-2  hover:bg-green-300 shadow-lg cursor-pointer"
                   >
                     {/* Icon */}
                     <div className={`text-4xl ${skill.color}`}>
