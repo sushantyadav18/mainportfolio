@@ -31,7 +31,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section className="bg-gray-200 py-25  ">
+    <section className="bg-green-100 py-25  ">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-blue-500">
           Education

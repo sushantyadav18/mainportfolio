@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <section className="min-h-screen  bg-gray-100 py-20">
+    <section className="min-h-screen  bg-green-100 py-20">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Heading */}
@@ -35,7 +35,7 @@ const ContactUs = () => {
               <FaEnvelope className="text-2xl text-blue-600" />
               <div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-gray-600">sushant@email.com</p>
+                <p className="text-gray-600">Shusant.kumar2gmail.com</p>
               </div>
             </div>
 
@@ -43,7 +43,7 @@ const ContactUs = () => {
               <FaPhoneAlt className="text-2xl text-blue-600" />
               <div>
                 <h3 className="font-semibold">Phone</h3>
-                <p className="text-gray-600">+977 98XXXXXXXX</p>
+                <p className="text-gray-600">+977 9811813386</p>
               </div>
             </div>
 
