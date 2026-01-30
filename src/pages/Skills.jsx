@@ -70,7 +70,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section className="bg-gray-200 py-25">
+    <section className="bg-gray-200 py-25 ">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Title */}

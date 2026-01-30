@@ -34,7 +34,7 @@ const images = [
 const Gallery = () => {
   return (
     <section
-    className="bg-gray-100 py-16">
+    className="bg-gray-100  py-16">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Title */}

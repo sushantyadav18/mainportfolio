@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-7xl mx-auto px-6 py-10">
+   <footer className="bg-gray-900 max-w-full text-gray-300">
+      <div className="">
 
         {/* Top Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -83,7 +83,7 @@ const Footer = () => {
 
       </div>
     </footer>
-  );
+  )
 };
 
 export default Footer;

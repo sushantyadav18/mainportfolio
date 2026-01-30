@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <section className="min-h-screen bg-gray-100 py-20">
+    <section className="min-h-screen  bg-gray-100 py-20">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Heading */}
