@@ -45,7 +45,7 @@ const About = () => {
             </h2>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              I am a passionate <strong>BCA student</strong> and a 
+              I am a passionate <strong>IT student</strong> and a 
               <strong> MERN Stack Developer</strong> with a strong focus on
               frontend development. I enjoy building clean, responsive, and
               user-friendly web applications.
