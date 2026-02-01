@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaDownload } from "react-icons/fa";
 
 import Gallery from "./Gallery";
 import Education from "./Education";
@@ -22,7 +23,6 @@ const Home = () => {
 
         <div className="relative z-10 lg:ml-75 md:mt-20 mt-20 max-w-7xl mx-auto px-6 w-full">
           <div className="flex flex-col-reverse md:flex-row items-center gap-12">
-            
             {/* TEXT */}
             <div className="text-center md:text-left">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800">
@@ -50,12 +50,17 @@ const Home = () => {
                 >
                   View Projects
                 </Link>
-                <Link
-                  to="/contact"
-                  className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition"
+
+                <a
+                  href="/SushantCv.pdf"
+                  download
+                  className="inline-flex items-center gap-2 px-6 py-3
+             rounded-full bg-purple-600 text-white
+             hover:bg-purple-700 transition"
                 >
-                  Contact Me
-                </Link>
+                  <FaDownload />
+                  Download Resume
+                </a>
               </div>
 
               {/* SOCIAL ICONS */}
@@ -94,12 +99,24 @@ const Home = () => {
       </div>
 
       {/* SECTIONS */}
-      <section className="mt-16"><Education /></section>
-      <section className="mt-16"><Gallery /></section>
-      <section className="mt-16"><Skills /></section>
-      <section className="mt-16"><Project /></section>
-      <section className="mt-16"><AboutUs /></section>
-      <section className="mt-16"><ContactUs /></section>
+      <section className="mt-16">
+        <Education />
+      </section>
+      <section className="mt-16">
+        <Gallery />
+      </section>
+      <section className="mt-16">
+        <Skills />
+      </section>
+      <section className="mt-16">
+        <Project />
+      </section>
+      <section className="mt-16">
+        <AboutUs />
+      </section>
+      <section className="mt-16">
+        <ContactUs />
+      </section>
     </>
   );
 };
