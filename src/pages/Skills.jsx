@@ -103,7 +103,7 @@ const Skills = () => {
                 initial="hidden"
                 whileInView="visible"
                 
-                className="grid  grid-cols-2  sm:grid-cols-3 md:grid-cols-5"
+                className="grid  grid-cols-2 gap-6  sm:grid-cols-3 md:grid-cols-5"
               >
                 {category.skills.map((skill, i) => (
                   <motion.div

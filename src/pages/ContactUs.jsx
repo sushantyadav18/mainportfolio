@@ -64,7 +64,7 @@ const ContactUs = () => {
 
           {/* Left Info */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="space-y-6"
@@ -96,7 +96,7 @@ const ContactUs = () => {
 
           {/* Right Form */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="bg-white p-8 rounded-xl shadow-lg"
